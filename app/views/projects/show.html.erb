@@ -1,0 +1,59 @@
+<p id="notice"><%= notice %></p>
+
+<p>
+  <strong>Name:</strong>
+  <%= @project.name %>
+</p>
+
+<p>
+  <strong>Class name:</strong>
+  <%= @project.class_name %>
+</p>
+
+<p>
+  <strong>Beneficiary:</strong>
+  <%= @project.beneficiary %>
+</p>
+
+<p>
+  <strong>Faculty:</strong>
+  <%= @project.faculty_id %>
+</p>
+
+<p>
+  <strong>Teacher:</strong>
+  <%= @project.teacher %>
+</p>
+
+<p>
+  <strong>Period:</strong>
+  <%= @project.period_id %>
+</p>
+
+<p>
+  <strong>Total students:</strong>
+  <%= @project.total_students %>
+</p>
+
+<p>
+  <strong>Proseso students:</strong>
+  <%= @project.proseso_students %>
+</p>
+
+<p>
+  <strong>Avg hours:</strong>
+  <%= @project.avg_hours %>
+</p>
+
+<p>
+  <strong>Total hours:</strong>
+  <%= @project.total_hours %>
+</p>
+
+<p>
+  <strong>Cost:</strong>
+  <%= @project.cost %>
+</p>
+
+<%= link_to 'Edit', edit_project_path(@project) %> |
+<%= link_to 'Back', projects_path %>

@@ -1,0 +1,27 @@
+# Read about fixtures at http://api.rubyonrails.org/classes/ActiveRecord/Fixtures.html
+
+one:
+  name: MyString
+  class_name: MyString
+  beneficiary: MyString
+  faculty_id: 1
+  teacher: MyString
+  period_id: 1
+  total_students: 1
+  proseso_students: 1
+  avg_hours: 9.99
+  total_hours: 1
+  cost: 9.99
+
+two:
+  name: MyString
+  class_name: MyString
+  beneficiary: MyString
+  faculty_id: 1
+  teacher: MyString
+  period_id: 1
+  total_students: 1
+  proseso_students: 1
+  avg_hours: 9.99
+  total_hours: 1
+  cost: 9.99
